@@ -2,6 +2,6 @@
 
 int main(){
 	
-	printf("Carlin bala gostoso curso do cão");
+	printf("quero aprender git");
 	return 0;
 }
