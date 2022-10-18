@@ -2,6 +2,6 @@
 
 int main(){
 	
-	printf("quero aprender git");
+	printf("maduzinha");
 	return 0;
 }
