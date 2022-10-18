@@ -1,0 +1,161 @@
+Microsoft Windows [versão 10.0.19044.2130]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\a2150336>cd documents
+
+C:\Users\a2150336\Documents>git pull https://github.com/fabioirigon/casa_inteligente.git
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\a2150336\Documents>git init
+Initialized empty Git repository in C:/Users/a2150336/Documents/.git/
+
+C:\Users\a2150336\Documents>git pull https://github.com/fabioirigon/casa_inteligente.git
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 30 (delta 9), reused 23 (delta 4), pack-reused 0
+Unpacking objects: 100% (30/30), 3.01 KiB | 25.00 KiB/s, done.
+From https://github.com/fabioirigon/casa_inteligente
+ * branch            HEAD       -> FETCH_HEAD
+
+C:\Users\a2150336\Documents>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 463B-6F93
+
+ Pasta de C:\Users\a2150336\Documents
+
+18/10/2022  15:39    <DIR>          .
+18/10/2022  15:39    <DIR>          ..
+18/10/2022  15:39                31 .gitignore
+18/10/2022  15:35    <DIR>          casa_inteligente
+18/10/2022  15:39                98 main.c
+18/10/2022  15:39                 7 outro.txt
+18/10/2022  15:39                28 README.md
+18/10/2022  15:39                 7 teste1.txt
+18/10/2022  15:39                 7 teste2.txt
+               6 arquivo(s)            178 bytes
+               3 pasta(s)   27.481.759.744 bytes disponíveis
+
+C:\Users\a2150336\Documents>git add .
+warning: could not open directory 'Meus Vídeos/': Permission denied
+warning: could not open directory 'Minhas Imagens/': Permission denied
+warning: could not open directory 'Minhas Músicas/': Permission denied
+
+C:\Users\a2150336\Documents>cd .
+
+C:\Users\a2150336\Documents>cd..
+
+C:\Users\a2150336>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 463B-6F93
+
+ Pasta de C:\Users\a2150336
+
+18/10/2022  15:28    <DIR>          .
+18/10/2022  15:28    <DIR>          ..
+18/10/2022  15:43           165.527 .fog_user.log
+18/10/2022  15:28                20 .lesshst
+18/10/2022  14:50    <DIR>          .vscode
+18/10/2022  14:06    <DIR>          3D Objects
+18/10/2022  14:06    <DIR>          Contacts
+18/10/2022  14:06    <DIR>          Desktop
+18/10/2022  15:43    <DIR>          Documents
+18/10/2022  15:44    <DIR>          Downloads
+18/10/2022  14:06    <DIR>          Favorites
+18/10/2022  14:06    <DIR>          Links
+18/10/2022  14:06    <DIR>          Music
+18/10/2022  14:07    <DIR>          OneDrive
+18/10/2022  14:06    <DIR>          Pictures
+18/10/2022  14:06    <DIR>          Saved Games
+18/10/2022  14:06    <DIR>          Searches
+18/10/2022  14:06    <DIR>          Videos
+               2 arquivo(s)        165.547 bytes
+              16 pasta(s)   27.281.264.640 bytes disponíveis
+
+C:\Users\a2150336>cd download
+O sistema não pode encontrar o caminho especificado.
+
+C:\Users\a2150336>cd downloads
+
+C:\Users\a2150336\Downloads>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 463B-6F93
+
+ Pasta de C:\Users\a2150336\Downloads
+
+18/10/2022  15:44    <DIR>          .
+18/10/2022  15:44    <DIR>          ..
+18/10/2022  14:59            41.484 CHAVEIRO COMP.STL
+18/10/2022  14:59           406.184 CHAVEIRO MÃO SECOMP (1).stl
+18/10/2022  14:59           218.084 CHAVEIRO MÃO SECOMP (2).stl
+18/10/2022  14:59           951.984 CHAVEIRO MÃO SECOMP.stl
+18/10/2022  15:43    <DIR>          teste
+               4 arquivo(s)      1.617.736 bytes
+               3 pasta(s)   27.281.264.640 bytes disponíveis
+
+C:\Users\a2150336\Downloads>cd teste
+
+C:\Users\a2150336\Downloads\teste>git init
+Initialized empty Git repository in C:/Users/a2150336/Downloads/teste/.git/
+
+C:\Users\a2150336\Downloads\teste>git pull https://github.com/fabioirigon/casa_inteligente.git
+remote: Enumerating objects: 42, done.
+remote: Counting objects: 100% (42/42), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 42 (delta 15), reused 34 (delta 9), pack-reused 0
+Unpacking objects: 100% (42/42), 4.65 KiB | 28.00 KiB/s, done.
+From https://github.com/fabioirigon/casa_inteligente
+ * branch            HEAD       -> FETCH_HEAD
+
+C:\Users\a2150336\Downloads\teste>git add .
+
+C:\Users\a2150336\Downloads\teste>git commit -m teste
+[master 992c3b5] teste
+ Committer: Maria Eduarda Pedroso <a2150336@vmpdc.utfpr>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 _108372663_meme2.jpg
+
+C:\Users\a2150336\Downloads\teste>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\Users\a2150336\Downloads\teste>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\a2150336\Downloads\teste>git remote add <teste> <https://github.com/fabioirigon/casa_inteligente.git>
+< foi inesperado neste momento.
+
+C:\Users\a2150336\Downloads\teste>git remote add teste https://github.com/fabioirigon/casa_inteligente.git
+
+C:\Users\a2150336\Downloads\teste>git push teste
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 70.55 KiB | 23.52 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/fabioirigon/casa_inteligente.git
+   df5fde5..992c3b5  master -> master
+
+C:\Users\a2150336\Downloads\teste>
